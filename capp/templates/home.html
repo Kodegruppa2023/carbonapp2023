@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Header -->
+
+<section class="section_header_home">
+  <div class="container">
+
+    <div class="header_home">
+      <div class="box"> 
+        <h1 style="font-size:px; color:rgb(80, 94, 41)">Welcome to the Carbon App!</span>
+        </h1>
+        <p style="text-align:center;">
+          We've created this app to assist you in reducing your carbon footprint by offering an effortless way to calculate your carbon emissions. 
+          Our app is designed to be user-friendly, providing you with a comprehensive overview of your carbon footprint based on the data you input. 
+          By utilizing our app, you can gain valuable insights into the factors influencing your carbon footprint and discover actionable steps to decrease it. 
+          We hope our app empowers you to make informed choices, leading to a reduction in your carbon footprint and contributing to the fight against climate change. 
+          Thank you for choosing our app!
+        </p>
+        <div class="container_buttons_header_home">
+          <div class="btn">
+              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(80, 94, 41); border: none">Register</a>
+              
+          </div>
+          <div class="btn">
+              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(80, 94, 41); border: none">Login</a>
+          </div>
+        </div>  
+      </div>
+      <div class="box logo">
+        <img 
+          src="{{url_for('static', filename='icons/bilde_logo.png')}}"
+          width="400" 
+          height="350"
+          alt=""/>
+      </div>
+    </div>
+
+  </div>
+</section>   
+
+<!-- Developers -->
+<section class="section_developers">
+  <div class="container">
+
+    <div class="developers" style="display:block;">
+      <h1 style="text-align:center; color: rgb(80, 94, 41) ">Our Team</h1>
+      <p style=" text-align: center; color: rgb(80, 94, 41)">
+        Our team of students with various background have this semester through the class Sustainable Business Models developed this app!
+        SI NOE MER HER 
+      </p>      
+    </div>
+
+   <div class="developers">
+        <div class="box">
+          <img src="{{url_for('static', filename='icons/IDA.jpeg')}}" alt="" style="border-radius: 50%; width:200px; margin-bottom: 20px;">
+          <h3 style=" color:rgb(43, 41, 28)">Ida Hansen Maltun</h3>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://www.linkedin.com/in/ida-maltun/"  target="_blank">LinkedIn</a>
+          </div>
+          <div class="container_buttons_developers2">
+            <a class="btn_developers2" href=""  target="_blank">Om Ida</a>
+          </div>  
+        </div>
+        <div class="box">
+          <img src="{{url_for('static', filename='icons/Marie_ok.png')}}" alt="" style="border-radius: 50%; width:200px; margin-bottom: 20px;">
+          <h3 style=" color:rgb(43, 41, 28)">Marie Andersson Haug</h3>
+          <p style=" text-align: center;">  Mitt navn er Marie
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://www.linkedin.com/in/marie-andersson-haug-038649160/"  target="_blank">LinkedIn</a>
+          </div> 
+        </div>           
+        <div class="box">
+          <img src="{{url_for('static', filename='icons/SOFIE.jpeg')}}" alt="" style="border-radius: 50%; width:200px; margin-bottom: 20px;">
+          <h3 style=" color:rgb(43, 41, 28)">Sofie Skuland</h3>
+          <p style=" text-align: center;">  Mitt navn er Sofie 
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://www.linkedin.com/in/sofieskuland/"  target="_blank">LinkedIn</a>
+          </div> 
+        </div>   
+        <div class="box2">
+          <img src="{{url_for('static', filename='icons/Hannah_ok.png')}}" alt="" style="border-radius: 50%; width:200px; margin-bottom: 20px;">
+          <h3 style=" color:rgb(43, 41, 28)">Hannah Bernstein</h3>
+          <p style=" text-align: center;">  Mitt navn er Hannah
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://www.linkedin.com/in/hannah-bernstein-542900170/"  target="_blank">LinkedIn</a>
+          </div> 
+        </div>  
+        <div class="box2">
+          <img src="{{url_for('static', filename='icons/Eirin_ok.png')}}" alt="" style="border-radius: 50%; width:200px; margin-bottom: 20px;">
+          <h3 style=" color:rgb(43, 41, 28)">Eirin Losvik</h3>
+          <p style=" text-align: center;">  Mitt navn er Eirin
+          </p>
+          <div class="container_buttons_developers">
+            <a class="btn_developers" href="https://www.linkedin.com/in/eirin-losvik-43407514a/"  target="_blank">LinkedIn</a>
+          </div> 
+        </div>      
+  </div>
+'
+  </div>          
+</section>     
+{% endblock content %}
+

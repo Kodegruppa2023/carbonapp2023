@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+    <!-- Header -->
+    <section class="section_header_carbon_app">
+        <div class="container">
+    
+        <div class="header_carbon_app">
+            <div class="box"> 
+            <h1 style="color: rgb(43, 41, 28); font-size:55px;"><span class="text-logo"> Carbon App Calculator</span></h1>
+            <p style="text-align:center;">
+                Here you can find our Carbon Calculator! LogIn or Register to try check it out!
+            </p>
+            <div class="container_buttons_links_header_carbon_app">
+                <div class="btn">
+                    <a href="{{url_for('methodology.methodology_home')}}" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none;">Register</a>
+                </div>
+                <div class="btn">
+                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none;", data-toggle="modal" data-target="#carbon_app_instructions">Login</a>
+                </div>
+                <div class="btn">
+                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none;">Your emissions</a>
+                </div>
+            </div>  
+
+
+            <!-- Modal Instructions -->
+            <div class="modal fade" id="carbon_app_instructions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+          
+                    <div class="modal-header">
+                    <h5 class="modal-title", style="color:black; text-align: center;">Carbon App, instructions</h5>
+                    </div>
+          
+                    <div class="modal-body", style="color:black">
+                    <p style="text-align: left;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione tempore id esse nobis molestias quasi explicabo possimus ea reprehenderit.
+                    </p>
+                    <ol style="text-align:left;">
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                        </li>
+                    </ol>
+                    </div>
+          
+                    <div class="modal-footer">
+                    <button class="btn btn-secondary btn-lg mr-2", style="background-color:#6c757d;" data-dismiss="modal">Close</button>
+                    </div>
+          
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="box">
+            <img 
+                src="{{url_for('static', filename='icons/calculator.svg')}}"
+                width="325" 
+                height="325"
+                alt=""/>
+            </div>
+        </div>
+        
+        </div>
+    </section> 
+       
+
+{% endblock content %}
+       
