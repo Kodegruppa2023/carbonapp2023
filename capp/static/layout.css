@@ -1,24 +1,18 @@
 /* Colors */
-/* Rainy theme 5 -Green Digitalization Course and Students Apps-:
-Navbar (background): #c1d397
-Navbar (a hover): #466fa6
-Navbar (logo): #568c63
-Navbar (a menu): #2a4359
-Footer (background): #c1d397
-
+/* 
 Farge rosa: 205, 180, 158
 Farge beige: 243, 232, 204
 Farge lys grønn: 193, 211, 151
 Farge mørk grønn: 80, 94, 41
 Farge brun: 43, 41, 28
 Bakgrunnsfarge - lys beige: 
-
 */
 
 /* Google fonts Montserrat  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* CSS utilities */
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -184,5 +178,4 @@ h5 {
     border-bottom: #2a4359 2px solid;
   }
 }
-
 
