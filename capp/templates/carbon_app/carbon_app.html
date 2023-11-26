@@ -20,7 +20,7 @@
                     <a href="{{url_for('methodology.methodology_home')}}" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none; margin-top: 20px; margin-bottom: 10px;">Methodology</a>
                 </div>
                 <div class="btn">
-                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none; margin-top: 20px; margin-bottom: 10px;", data-toggle="modal" data-target="#carbon_app_instructions">Instructions</a>
+                    <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none; margin-top: 20px;margin-bottom: 10px;", data-toggle="modal" data-target="#carbon_app_instructions">Instructions</a>
                 </div>
             </div>  
             <!-- Modal Instructions -->
@@ -29,25 +29,40 @@
                 <div class="modal-content">
           
                     <div class="modal-header">
-                    <h5 class="modal-title", style="color:black; text-align: center;">Carbon App, instructions</h5>
+                    <h5 class="modal-title", style="color:rgb(43, 41, 28); text-align: center;">How to use the Calculator</h5>
                     </div>
           
-                    <div class="modal-body", style="color:black">
-                    <p style="text-align: left;">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione tempore id esse nobis molestias quasi explicabo possimus ea reprehenderit.
-                    </p>
+                    <div class="modal-body", style="color:rgb(43, 41, 28)">
                     <ol style="text-align:left;">
                         <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                            Type of fuel:<br>
+                            Fill in the type of fuel that your transportation used
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, sint.
+                            Kilometer Values:<br>
+                            Enter the number of kilometers traveled using the different modes of transportation. 
+                            Input values for bus, car, plane, ferry, motorbike, scooter, bicycle, and walking.
+                        </li>
+                        <li>
+                            Click 'Submit':<br>
+                        </li>
+                        <li>
+                            Receive Emission Results:<br>
+                            The calculator will compute your carbon emissions based on the provided kilometer values for each mode of transport.
+                        </li>
+                        <li>
+                            View Results in the Diagram:<br>
+                            See the emissions results and understand how your travel habits impact the environment.
+                        </li>
+                        <li>
+                            Iterate or Adjust as Needed:<br>
+                            Go back and adjust the numbers to explore how different travel choices affect carbon emissions. Test various scenarios to find more eco-friendly alternatives.
                         </li>
                     </ol>
                     </div>
           
                     <div class="modal-footer">
-                        <button class="btn btn-secondary btn-lg mr-2", style="background-color:#6c757d;" data-dismiss="modal">Close</button>
+                        <button class="btn btn-secondary btn-lg mr-2", style="background-color:rgb(193, 211, 151); border: none;" data-dismiss="modal">Close</button>
                     </div>
           
                 </div>
@@ -308,7 +323,7 @@
                             </div>
                             </br>
                             <div class="form-group">
-                                {{ form.submit(class="btn btn-primary btn-lg mr-2", style="background-color=#007bff;") }}
+                                {{ form.submit(class="btn btn-primary btn-lg mr-2", style="background-color: rgb(43, 41, 28); border: none;") }}
                             </div>
                         </form> 
                 </div>
