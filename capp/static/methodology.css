@@ -1,9 +1,4 @@
 /* Colors 
-Methodology, section 1 (header, background): #2a4359
-Methodology, section 1 (header, boxes): #6da6a6
-Methodology, section 2 (methodology, background): #466fa6
-Methodology, section 2 (methodology, boxes): #8badd9
-
 Farge rosa: 205, 180, 158
 Farge beige: 243, 232, 204
 Farge lys grønn: 193, 211, 151
@@ -42,7 +37,7 @@ p {
     color: rgb(43, 41, 28);
     border-radius: 10px;
     margin: 30px 10px;
-    padding: 15px 20px;
+    padding: 5px 5px;
     text-align:center;
     align-items: center;
     justify-content: center;
@@ -59,9 +54,11 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+    transition: transform 0.3s ease;
   }
   .container_buttons_links_header a:hover {
     color: rgb(43, 41, 28);
+    transform: scale(1.1);
   }
   .container_buttons_links_header btn {
     width: 100px;
@@ -79,11 +76,9 @@ p {
   .methodology {
     display: flex;  
     align-items: start;
-    background:rgb(248, 244, 236);
+    background-color:rgb(248, 244, 236);
   }
-  /* Table with one column */
 
-  /* Buses */
   .methodology .box_table1 {
     flex: 1;
     background: rgb(193, 211, 151);
@@ -98,7 +93,7 @@ p {
   /* liten uten innhold */ 
   .methodology .box_table1:nth-of-type(1) {
     flex-grow:1;
-    background: rgb(193, 211, 151);
+    background: rgb(248, 244, 236);
   }
   /* liten uten innhold */ 
   .methodology .box_table1:nth-of-type(2) {
@@ -106,7 +101,7 @@ p {
   }
   .methodology .box_table1:nth-of-type(3) {
     flex-grow:1;
-    background: rgb(193, 211, 151);
+    background: rgb(248, 244, 236);
   }
   /* Table with two columns */
   .methodology .box_table2 {
