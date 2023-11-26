@@ -1,10 +1,4 @@
 /* Colors 
-Home, section 1 (header, background): #9fa7bf
-Home, section 1 (header, boxes): #568c63
-Home, section 2 (developers, background): #c5c8d9 
-Home, section 2 (developers, boxes): #49736f
-
-
 Farge rosa: 205, 180, 158
 Farge beige: 243, 232, 204
 Farge lys grønn: 193, 211, 151
@@ -117,11 +111,14 @@ text-decoration: none;
 font-size: 18px;
 background-color: rgb(193, 211, 151);
 border: none;
+transition: transform 0.3s ease;
 }
 
 .btn_developers:hover {
-background-color: #c5c8d9;
-border: 2px solid #c5c8d9;
+background-color: rgb(248, 244, 236);
+color: rgb(193, 211, 151);
+border: 2px solid rgb(248, 244, 236);
+transform: scale(1.1);
 }
 
 /* CSS for the second button inside developers*/
@@ -137,8 +134,8 @@ border: none;
 }
 
 .container_buttons_developers2 .btn_developers2:hover {
-background-color: #c5c8d9;
-border: 2px solid #c5c8d9;
+background-color: rgb(193, 211, 151);
+border: 2px solid rgb(193, 211, 151);
 }
 
 
