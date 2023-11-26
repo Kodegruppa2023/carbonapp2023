@@ -1,23 +1,15 @@
-/* Rainy theme 5 -Green Digitalization Course-:
- rt5-1: #c5c8d9
- rt5-2: #9fa7bf
- rt5-3: #2a4359
- rt5-4: #49736f
- rt5-5: #568c63 
- rt4-3: #6da6a6 For the main chat  
- RT1-2: #789091 For the chat creation */
 /* App Calculator Entry */
       /*Container section select entry*/
       .section_calculator_students_entry_css {
-        background: #c5c8d9;
+        background: rgb(248, 244, 236);
         display: flex;
         align-items: start;
         justify-content: space-between;
     }
     .section_calculator_students_entry_css .box {
         flex: 1;
-        background: #6da6a6 ;
-        color: #343a40;
+        background: rgb(80, 94, 41) ;
+        color: rgb(80, 94, 41);
         border-radius: 10px;
         margin: 20px 10px;
         padding: 15px 20px;
@@ -25,17 +17,19 @@
     }
     .section_calculator_students_entry_css .box:nth-of-type(1) {
         flex-grow:1;
-        background: #c5c8d9 ;
-        color: #fff;
+        background: rgb(80, 94, 41);
+        color: rgb(80, 94, 41);
         border-radius: 10px;
         margin: 0px 0px;
         padding: 0px 0px;
         text-align:left;
     }
+
+    /*KALKULATOR første side*/
     .section_calculator_students_entry_css .box:nth-of-type(2) {
         flex-grow:5;
-        background: #6da6a6 ;
-        color: #343a40;
+        background: rgb(80, 94, 41) ;
+        color: rgb(248, 244, 236);
         border-radius: 10px;
         margin: 20px 10px;
         padding: 15px 20px;
@@ -43,8 +37,8 @@
     }
     .section_calculator_students_entry_css .box:nth-of-type(3) {
         flex-grow:1;
-        background: #c5c8d9;
-        color: #fff;
+        background: rgb(80, 94, 41);
+        color:rgb(80, 94, 41);
         border-radius: 10px;
         margin: 0px 0px;
         padding: 0px 0px;
@@ -52,35 +46,38 @@
     }
 
     /* App Calculator Output */
-    /*Container display output*/
+    /*Bakgrunn andre side av kalkulator*/
+
     .section_calculator_students_output_css {
-        background: #c5c8d9;
+        background: rgb(248, 244, 236);
         display: flex;
         align-items: start;
         justify-content: space-between;
     }
     .section_calculator_students_output_css .box {
         flex: 1;
-        background: #6da6a6 ;
-        color: #343a40;
+        background: rgb(80, 94, 41);
+        color: rgb(43, 41, 28);
         border-radius: 10px;
         margin: 20px 10px;
         padding: 15px 20px;
         text-align:center;
     }
+      /*Bakgrunn av kalkulator side 2*/
     .section_calculator_students_output_css .box:nth-of-type(1) {
         flex-grow:6;
-        background: #6da6a6;
-        color: #343a40;
+        background: rgb(80, 94, 41);
+        color: rgb(248, 244, 236);
         border-radius: 10px;
         margin: 20px 10px;
         padding: 15px 20px;
         text-align:center;
     }
+    /*Bakgrunn av diagram side 2*/
     .section_calculator_students_output_css .box:nth-of-type(2) {
       flex-grow:4;
-      background: #6da6a6 ;
-      color: #343a40;
+      background: rgb(248, 244, 236);
+      color: rgb(43, 41, 28);
       border-radius: 10px;
       margin: 20px 10px;
       padding: 15px 20px;
@@ -95,35 +92,38 @@
     }
     .section_km_fuel_css .box {
         flex: 1;
-        background: #9fa7bf ;
-        color: #343a40;
+        background: rgb(248, 244, 236) ;
+        color: rgb(43, 41, 28);
         border-radius: 10px;
         margin: 10px 10px;
         padding: 10px 10px;
         text-align:center;
     }
+      /*Rad en i kalkulator*/
     .section_km_fuel_css .box:nth-of-type(1) {
         flex-grow:1;
-        background: #9AC7A9 ;
-        color: #343a40;
+        background: rgb(193, 211, 151);
+        color: rgb(43, 41, 28);
         border-radius: 10px;
         margin: 10px 10px;
         padding: 10px 10px;
         text-align:center;
     }
+      /*Rad to i kalkulator*/
     .section_km_fuel_css .box:nth-of-type(2) {
         flex-grow:1;
-        background: #9AC7A9;
-        color: #343a40;
+        background: rgb(193, 211, 151);
+        color: rgb(43, 41, 28);
         border-radius: 10px;
         margin: 10px 10px;
         padding: 10px 10px;
         text-align:center;
     }
+    /*Rad tre i kalkulator*/
     .section_km_fuel_css .box:nth-of-type(3) {
         flex-grow:1;
-        background: #9AC7A9 ;
-        color: #343a40;
+        background: rgb(193, 211, 151);
+        color: rgb(43, 41, 28);
         border-radius: 10px;
         margin: 10px 10px;
         padding: 10px 10px;
