@@ -278,7 +278,7 @@
 
                     </br>
                     <div class="form-group">
-                        <a href="{{ url_for('carbon_app.carbon_app_home') }}" class="btn btn-primary btn-lg mr-2", style="background-color=#007bff;">New Entry</a>
+                        <a href="{{ url_for('carbon_app.carbon_app_home') }}" class="btn btn-primary btn-lg mr-2", style="background-color:rgb(43, 41, 28); border: none;">New Entry</a>
                     </div>
                 </form>
         </div>
@@ -298,7 +298,7 @@
                 let co2_transport_chart = new Chart(co2_transport, {
                         type: 'pie',
                         data: {
-                        labels: ['CO2 bus', 'CO2 car', 'CO2 plane', 'CO2 ferry', 'CO2 motorbike', 'CO2 scooter', 'CO2 bicycle', 'CO2 walk'],
+                        labels: ['CO2 Emissions bus', 'CO2 Emissions car', 'CO2 Emissions plane', 'CO2 Emissions ferry', 'CO2 Emissions motorbike', 'CO2 Emissions scooter', 'CO2 Emissions bicycle', 'CO2 Emissions walking'],
                             datasets: [{
                                 label: "CO2 transport",
                                 data: [{{co2_bus}}, {{co2_car}}, {{co2_plane}}, {{co2_ferry}}, {{co2_motorbike}}, {{co2_scooter}}, {{co2_bicycle}}, {{co2_walk}}],
@@ -314,13 +314,15 @@
                         options: {
                                 title: {
                                     display: true,
-                                        text: "CO2 Transport",
-                                            fontSize: 20,
+                                        text: "Your Transport Carbon Emissions",
+                                            fontSize: 40,
+                                            fontColor: "rgb(43, 41, 28)"
+
                                 },
                                 legend: {
                                     position: "right",
                                         labels: {
-                                        fontColor: "gray"
+                                        fontColor: "rgb(43, 41, 28)"
                                     },
                                     display: true,
                                 },
